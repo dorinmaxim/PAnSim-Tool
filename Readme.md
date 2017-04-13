@@ -11,3 +11,11 @@ Inputs are textual (task-set parameters) and outputs are numerical (lists of res
 PAnSim is implemented in Matlab by Dorin Maxim. Copyright is held by Dorin Maxim. 
 PSnSim is free for academic use provided that proper credit is given (e.g. cited in publications). 
 
+
+Using PAnSim
+-----------------------------
+
+
+To use PAnSim simply open the file Main.m in Matlab and change the task-set parameters to correspond to the task-set that you want to simulate. You may need to comment/uncomment some functions depending on what you want to use PAnSim for (e.g. simulation, analysis, simulation and analysis) and which results you want to plot (e.g. gant chart of the runtime scheduling, analytical and/or empirical exceedence distributions, etc).
+
+
