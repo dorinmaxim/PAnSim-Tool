@@ -1,4 +1,4 @@
-#PAnSim Tool by Dorin Maxim
+PAnSim Tool by Dorin Maxim
 -----------------------------
 
 
