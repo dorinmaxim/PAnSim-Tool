@@ -16,7 +16,7 @@ taskSet={tau1, tau2};
 %% do simulation
 %number of jobs of the lowest priority task to simulate
 
-numberOfJobsToSimulate = 10000;
+numberOfJobsToSimulate = 10;
 
 %there are two possible approaches regarding what happens when a job
 %misses a deadline: to continue the job or to abort it. The appropriate
@@ -30,7 +30,7 @@ numberOfJobsToSimulate = 10000;
 %% plot the schedule
 % uncomment to plot the execution schedule
 
-%plotExecutionSchedule(jobs, grafic)
+plotExecutionSchedule(jobs, grafic)
 
 
 %% analyze the task-set
