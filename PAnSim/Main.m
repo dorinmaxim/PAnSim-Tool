@@ -22,9 +22,9 @@ numberOfJobsToSimulate = 10;
 %misses a deadline: to continue the job or to abort it. The appropriate
 %fucntion below should be activated while the unused one should be commented
 
-%[responseTimes, grafic, jobs] = simulateExecutionOfPRTSMultipleJobsContinuePastDeadline( taskSet, numberOfJobsToSimulate );
+%[responseTimes, grafic, jobs] = simulateContinuePastDeadline( taskSet, numberOfJobsToSimulate );
 
-[responseTimes, grafic, jobs] = simulateExecutionOfPRTSMultipleJobsStopAtDeadline( taskSet, numberOfJobsToSimulate);
+[responseTimes, grafic, jobs] = simulateStopAtDeadline( taskSet, numberOfJobsToSimulate);
 
 
 %% plot the schedule
