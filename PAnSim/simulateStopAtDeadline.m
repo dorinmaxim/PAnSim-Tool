@@ -1,4 +1,4 @@
-function [ respTimeValues2, grafic, outputRunableTaskSet] = simulateExecutionOfPRTSMultipleJobsStopAtDeadline( taskSet, nbJobs )
+function [ respTimeValues2, grafic, outputRunableTaskSet] = simulateStopAtDeadline( taskSet, nbJobs )
 
 %in this simulator, jobs are NOT allowed to continue execution past their
 %repective deadlines, i.e. they are stopped at deadline if they didn't
