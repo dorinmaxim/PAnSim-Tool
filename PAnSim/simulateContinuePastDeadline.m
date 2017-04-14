@@ -1,4 +1,4 @@
-function [ respTimeValues2, grafic , outputRunableTaskSet] = simulateExecutionOfPRTSMultipleJobsContinuePastDeadline( taskSet, nbJobs )
+function [ respTimeValues2, grafic , outputRunableTaskSet] = simulateContinuePastDeadline( taskSet, nbJobs )
 
 %in this simulator, jobs are allowed to continue execution past their
 %repective deadlines
